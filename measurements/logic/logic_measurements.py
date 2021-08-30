@@ -5,7 +5,7 @@ def get_all_measurements():
     return measurements
 
 def get_one_measurement():
-    measurement = Measurement.objects.filter(pk=1)
+    measurement = Measurement.objects.filter(pk=2)
     return measurement
 
 def delete_one_measurement():
